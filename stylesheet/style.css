@@ -16,7 +16,6 @@ header{
     background-color: rgb(91, 103, 115);
     height: 350px;
     color: white;
-    display: flexbox;
     justify-content: center;
     align-items: center;
 }
@@ -32,6 +31,20 @@ header h2{
 header p{
     margin: 10px;
     font-size: 20px;
+}
+header ul.media {
+    border: 0px solid white;
+    display: inline-flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+header li{
+    margin-left: auto;
+    margin-right: auto;
+}
+header a{
+    color: white;
+    text-decoration: none;
 }
 .education{
     width: 85%;
