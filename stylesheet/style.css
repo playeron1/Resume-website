@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-color: rgb(91,103,115) black;
+    scrollbar-width: thin;
+}
+header{
+    text-align: center;
+    font-family: "Inter",swap;
+    background-color: rgb(91, 103, 115);
+    height: 350px;
+    color: white;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 120px;
+    clip-path: circle();
+    margin-top: 50px;
+}
+header h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+header p{
+    margin: 10px;
+    font-size: 20px;
+}
+.education{
+    width: 85%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Inter",swap;
+}
+.institute-name {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    margin-top: 20px;
+}
+.cgpa{
+    font-style: italic; 
+}
+.course-card{
+    display: flex;
+    gap: 10px;
+}
+.courses ul{
+    display: flex;
+    flex-direction: column;
+}
+.card1{
+    display: flex;
+    width: 50%;
+    row-gap: 5px;
+}
+.card3{
+    width: 50%;
+    row-gap: 5px;
+}
+.courses p{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.courses li{
+    list-style: none;
+}
+.PUC{
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+font-family: "Inter",swap;
+margin-top: 10px;
+}
+.about-me{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: "Inter",swap;
+}
+.about-me p{
+    margin-top: 20px;
+}
+.icse{
+    margin-bottom:20px;
+}
+.skills{
+    margin-top: 50px;
+    margin-bottom:50px ;
+}
+.tech{
+    display: flex;
+    margin-top: 30px;
+}
+.cards1{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    width:50%;
+    row-gap: 5px;
+}
+.cards2{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 50%;
+    row-gap: 5px;
+}
+.exp1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.role{
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.duration{
+    font-style: italic;
+    font-size: 15px;
+}
+.learnings ul{
+    margin-top: 10px;
+    font-style: italic;
+    list-style-type:circle;
+}
+.cert{
+    margin-top: 20px;
+}
+.cert ul{
+    margin-bottom: 30px;
+    list-style-type: circle;
+}
+.google-cert a{
+    text-decoration: underline 2px solid black;
+}
+.google-cert a:visited{
+    color: black;
+}
+.projects{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.project1{
+    display: flex;
+    margin-top: 20px;
+}
+.project1 a{
+    text-decoration: underline 2px black;
+    color: black;
+}
+.project1 a:visited{
+    color: black;
+}
+.project1 li{
+    margin: 25px;
+    list-style: circle;
+}
+.project1 li.amazon p{
+    margin-top: 10px;
+    font-style: italic;
+}
+button{
+    background-color:rgb(91, 103, 115);
+    border-radius: 50%;
+    border-color: black;
+    width: 50px;
+    position: fixed;
+    bottom: 5%;
+    right: 8%; 
+    color: white; 
+    height: 50px;
+    font-size: 16px;
+}
+button img{
+    width: 30px;
+    height: 30px;
+    color: white;
+    filter: invert(1);
+}
