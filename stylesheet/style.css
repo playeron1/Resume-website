@@ -157,6 +157,7 @@ margin-top: 10px;
 }
 .google-cert a{
     text-decoration: underline 2px solid black;
+    color: black;
 }
 .google-cert a:visited{
     color: black;
