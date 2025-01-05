@@ -41,6 +41,7 @@ header ul.media {
 header li{
     margin-left: auto;
     margin-right: auto;
+    list-style-type: square;
 }
 header a{
     color: white;
@@ -129,6 +130,10 @@ margin-top: 10px;
     width: 50%;
     row-gap: 5px;
 }
+.jobs{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .exp1{
     margin-bottom: 30px;
     margin-top: 20px;
@@ -184,6 +189,26 @@ margin-top: 10px;
 .project1 li.amazon p{
     margin-top: 10px;
     font-style: italic;
+}
+.volunteering{
+    margin-bottom: 100px;
+}
+.tenure{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.highlights{
+    margin-top: 10px;
+}
+.highlights p{
+    font-weight: bold;
+}
+.highlights ul{
+    list-style-type: circle;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 button{
     background-color:rgb(91, 103, 115);
