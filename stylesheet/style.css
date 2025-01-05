@@ -211,7 +211,7 @@ margin-top: 10px;
     margin-top: 20px;
 }
 button{
-    background-color:rgb(91, 103, 115);
+    background-color:rgb(0, 0, 0);
     border-radius: 50%;
     border-color: black;
     width: 50px;
@@ -221,6 +221,7 @@ button{
     color: white; 
     height: 50px;
     font-size: 16px;
+    cursor: pointer;
 }
 button img{
     width: 30px;
